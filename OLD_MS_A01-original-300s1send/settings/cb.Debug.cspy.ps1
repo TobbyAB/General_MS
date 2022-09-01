@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Tobby\Desktop\T25WORK\U_MS_25\OLD_MS_A01-original-300s1send\settings\cb.Debug.general.xcl" --backend -f "C:\Users\Tobby\Desktop\T25WORK\U_MS_25\OLD_MS_A01-original-300s1send\settings\cb.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "E:\project_a\MS_Programmer\OLD_MS_A01-original-300s1send\settings\cb.Debug.general.xcl" --backend -f "E:\project_a\MS_Programmer\OLD_MS_A01-original-300s1send\settings\cb.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Tobby\Desktop\T25WORK\U_MS_25\OLD_MS_A01-original-300s1send\settings\cb.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Tobby\Desktop\T25WORK\U_MS_25\OLD_MS_A01-original-300s1send\settings\cb.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "E:\project_a\MS_Programmer\OLD_MS_A01-original-300s1send\settings\cb.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\project_a\MS_Programmer\OLD_MS_A01-original-300s1send\settings\cb.Debug.driver.xcl" 
 }

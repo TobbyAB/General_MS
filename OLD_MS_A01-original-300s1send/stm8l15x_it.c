@@ -151,7 +151,8 @@ INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler,4)
     //sysflag.send = 1;
     //sysflag.FastSleep = 0;
     
-    if (++SENDTIME >= 300)
+    //300S发射这里开始
+    if (++SENDTIME >= 300) 
     {
       SENDTIME = 0;
       sysflag.send = 1;
